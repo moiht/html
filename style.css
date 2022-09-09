@@ -1,0 +1,25 @@
+h1 {
+  color:whitesmoke
+}
+
+.header {
+background-color: aquamarine;
+display:flex;
+justify-content: space-between;
+}
+.games {
+background-color: aquamarine;   
+display:flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+.trex {
+border-style:groove;
+}
+.trex,p {
+color: whitesmoke;    
+}
+.link {
+display:flex;
+justify-content: flex-end;
+}
