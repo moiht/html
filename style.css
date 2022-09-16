@@ -1,5 +1,6 @@
 h1 {
-  color:rgb(133, 121, 121)
+  color:rgb(133, 121, 121);
+  margin: 30px;
 }
 body{
 background-color:#828282;
@@ -9,8 +10,10 @@ background-color: #00ffea;
 display:flex;
 justify-content: space-between;
 }
+.header *{
+border:solid  
+}
 .games {
-background-color:#ea6df3;   
 display:flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
@@ -19,9 +22,36 @@ justify-content: space-evenly;
 border-style:groove;
 }
 .trex,p {
-color: rgb(165, 165, 165);    
+color: rgba(5, 195, 253, 0.938);
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+opacity:0.2;   
 }
-.link {
+.trex:hover p{
+opacity:1;  
+}
+.trex:hover img{
+  opacity:0.33;
+}
+.face {
 display:flex;
 justify-content: flex-end;
+}
+a:link{
+color: darkgoldenrod;
+}
+a:visited{
+color: antiquewhite;
+}
+.menu{
+margin: 30px;
+}
+.menu,a{
+margin-left: 20px;
+}
+.trex{
+position:relative
+
 }
